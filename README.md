@@ -15,24 +15,30 @@ Eles complementam a proteção da instalação e são obrigatórios em diversos 
 
 ## 2. Princípio de Funcionamento dos Dispositivos
 
-### 2.1. DR – Princípio de Funcionamento
 
-O DR atua com base no equilíbrio das correntes:  
-**a corrente que entra no circuito deve sair pelo mesmo caminho**.
+### 2.1. DR – Princípio de Funcionamento 
 
-Ele utiliza um **transformador toroidal** que monitora a corrente da fase e do neutro.
+O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, toda a corrente que entra no circuito pela fase deve retornar pelo neutro. Para monitorar isso, o dispositivo utiliza um **transformador toroidal**, por onde passam os condutores de fase e neutro. Esse núcleo avalia continuamente a soma vetorial das correntes.
 
-#### Como funciona:
+#### Como o DR atua:
 
-1. Em condições normais, as correntes somam zero.  
-2. Em caso de fuga (choque, isolamento danificado), parte da corrente escapa para o terra.  
-3. A soma deixa de ser zero, gerando diferença (corrente residual).  
-4. Se essa diferença for maior que o limite (ex.: 30 mA), o DR **desarma instantaneamente**.
+- **Condição normal:**  
+  A corrente que sai pela fase retorna integralmente pelo neutro. A soma dessas correntes é igual a zero, o que mantém o DR estabilizado e ligado.
+
+- **Fuga de corrente:**  
+  Quando ocorre choque elétrico, falha de isolação ou contato com partes energizadas, parte da corrente deixa de retornar pelo neutro e escapa pelo terra ou através do corpo humano. Isso provoca um desequilíbrio detectável.
+
+- **Detecção:**  
+  O desequilíbrio gera um campo magnético residual no toróide, induzindo um sinal no seu enrolamento secundário.
+
+- **Atuação:**  
+  Se essa corrente diferencial-residual ultrapassar o limite de sensibilidade (como **30 mA**, usado para proteção humana), o sistema de disparo interna­mente aciona o mecanismo de abertura, desligando o circuito **em poucos milissegundos**, interrompendo o risco de choque ou incêndio.
 
 #### Em resumo:
 
 - Corrente equilibrada → funcionamento normal  
 - Corrente desequilibrada → **DR desarma e protege o usuário**
+
 
 ---
 
@@ -57,7 +63,7 @@ Ele opera com **varistores (MOV)** ou **centelhadores**.
 
 ---
 
-## 3. Tipos de DR (Detalhado)
+## 3. Tipos de DR 
 
 Os DR são classificados conforme o tipo de corrente diferencial que conseguem detectar:
 
@@ -93,7 +99,7 @@ Os DR são classificados conforme o tipo de corrente diferencial que conseguem d
 
 ---
 
-## 4. Tipos de DPS (Detalhado)
+## 4. Tipos de DPS 
 
 Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
@@ -146,3 +152,8 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 - Usar tomadas com pino terra  
 - Evitar benjamins/Ts  
 - Quadro sempre limpo  
+
+---
+
+## 8. Atividade Prática
+
