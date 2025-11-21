@@ -46,14 +46,6 @@ O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, 
 - Corrente equilibrada → funcionamento normal  
 - Corrente desequilibrada → **DR desarma e protege o usuário**
 
-### 2.2 Disjuntores Diferenciais Residuais (DDR / DR)
-
-Os **disjuntores diferenciais residuais (DDR)** — também conhecidos como **DR** ou **IDR (Interruptor Diferencial Residual)** — são dispositivos essenciais em instalações elétricas, pois **protegem pessoas contra choques elétricos** e **protegem os circuitos contra sobrecargas e curto-circuitos** quando integrados ao disjuntor termomagnético.
-
-Eles combinam duas funções em um único equipamento:
-
-- **Função diferencial (DR):** detecta fugas de corrente e protege contra choques.
-- **Função termomagnética:** protege o circuito contra sobrecarga e curto-circuito.
 
 ---
 
@@ -68,33 +60,6 @@ Fuga de corrente é quando parte da corrente elétrica escapa do circuito e pass
 
 Correntes tão pequenas quanto **30 mA** já podem ser fatais.  
 O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acidentes graves.
-
----
-
-###  Funcionamento do Disjuntor Diferencial Residual
-
-O DDR contém um **transformador toroidal** por onde passam os condutores de fase e neutro. Ele monitora se:
-
-- a corrente que **entra** pela fase retorna **integralmente** pelo neutro;
-- ou se parte dela está escapando (fuga).
-
-####  Operação normal
-Corrente da fase = corrente do neutro.  
-A soma das correntes é zero, e o DDR permanece ligado.
-
-####  Situação de fuga
-Parte da corrente “se perde” pelo terra ou pelo corpo humano → ocorre desequilíbrio.  
-O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
-
----
-
-###  Vantagens do DDR
-
-- Proteção contra choques diretos e indiretos  
-- Prevenção de incêndios provocados por fuga de corrente  
-- Detecção de falhas de isolamento  
-- Em modelos integrados, substitui DR + disjuntor  
-- Obrigatório em áreas de risco conforme NBR 5410  
 
 ---
 
@@ -127,6 +92,77 @@ O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
 - O DR deve estar antes das derivações que alimentam os circuitos  
 - O sistema deve possuir aterramento adequado  
 
+###  Classificação dos DR 
+
+Os DR são classificados conforme o tipo de corrente diferencial que conseguem detectar:
+
+### **DR Tipo AC**
+- Detecta apenas **correntes residuais senoidais puras (AC)**.
+- Usado em cargas simples.
+- **Menos recomendado** para instalações residenciais modernas.
+
+### **DR Tipo A**
+- Detecta correntes residuais:
+  - senoidais (AC)
+  - pulsantes (meia onda)
+- Compatível com eletrodomésticos modernos com eletrônica.
+- **É o tipo recomendado para residências.**
+
+### **DR Tipo F**
+- Detecta correntes:
+  - senoidais  
+  - pulsantes  
+  - de frequência mista  
+- Suporta cargas com motores controlados por inversores, soft-starters, etc.
+
+### **DR Tipo B**
+- Detecta:
+  - AC  
+  - DC  
+  - correntes residuais de alta frequência  
+  - harmônicas  
+- Usado em:
+  - sistemas fotovoltaicos  
+  - carregadores de veículos elétricos  
+  - inversores industriais  
+
+
+---
+
+### 2.2 Disjuntores Diferenciais Residuais (DDR / DR)
+
+Os **disjuntores diferenciais residuais (DDR)** — também conhecidos como **DR** ou **IDR (Interruptor Diferencial Residual)** — são dispositivos essenciais em instalações elétricas, pois **protegem pessoas contra choques elétricos** e **protegem os circuitos contra sobrecargas e curto-circuitos** quando integrados ao disjuntor termomagnético.
+
+Eles combinam duas funções em um único equipamento:
+
+- **Função diferencial (DR):** detecta fugas de corrente e protege contra choques.
+- **Função termomagnética:** protege o circuito contra sobrecarga e curto-circuito.
+
+
+###  Funcionamento do Disjuntor Diferencial Residual
+
+O DDR contém um **transformador toroidal** por onde passam os condutores de fase e neutro. Ele monitora se:
+
+- a corrente que **entra** pela fase retorna **integralmente** pelo neutro;
+- ou se parte dela está escapando (fuga).
+
+####  Operação normal
+Corrente da fase = corrente do neutro.  
+A soma das correntes é zero, e o DDR permanece ligado.
+
+####  Situação de fuga
+Parte da corrente “se perde” pelo terra ou pelo corpo humano → ocorre desequilíbrio.  
+O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
+
+---
+
+###  Vantagens do DDR
+
+- Proteção contra choques diretos e indiretos  
+- Prevenção de incêndios provocados por fuga de corrente  
+- Detecção de falhas de isolamento  
+- Em modelos integrados, substitui DR + disjuntor  
+- Obrigatório em áreas de risco conforme NBR 5410  
 
 
 ---
@@ -199,43 +235,8 @@ Comum em DPS Tipo 1 e aplicações industriais.
 
 ---
 
-## 3. Tipos de DR 
 
-Os DR são classificados conforme o tipo de corrente diferencial que conseguem detectar:
-
-### **DR Tipo AC**
-- Detecta apenas **correntes residuais senoidais puras (AC)**.
-- Usado em cargas simples.
-- **Menos recomendado** para instalações residenciais modernas.
-
-### **DR Tipo A**
-- Detecta correntes residuais:
-  - senoidais (AC)
-  - pulsantes (meia onda)
-- Compatível com eletrodomésticos modernos com eletrônica.
-- **É o tipo recomendado para residências.**
-
-### **DR Tipo F**
-- Detecta correntes:
-  - senoidais  
-  - pulsantes  
-  - de frequência mista  
-- Suporta cargas com motores controlados por inversores, soft-starters, etc.
-
-### **DR Tipo B**
-- Detecta:
-  - AC  
-  - DC  
-  - correntes residuais de alta frequência  
-  - harmônicas  
-- Usado em:
-  - sistemas fotovoltaicos  
-  - carregadores de veículos elétricos  
-  - inversores industriais  
-
----
-
-## 4. Tipos de DPS 
+### 2.4. Tipos de DPS 
 
 Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
@@ -261,77 +262,99 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-## 5. Comparação – DR x DPS
+## 3. Comparação – DR x DPS xDDR
 
-|## 5. Comparação Técnica – DR x DPS
 
-| Critério Técnico | DR (Dispositivo Diferencial-Residual) | DPS (Dispositivo de Proteção contra Surtos) |
-|------------------|----------------------------------------|----------------------------------------------|
-| **Finalidade principal** | Proteção contra choques elétricos por corrente de fuga | Proteção contra sobretensões transitórias (surtos) |
-| **Proteção de pessoas** | ✔️ Sim — evita fibrilação cardíaca e choques indiretos | ❌ Não — não detecta corrente através do corpo |
-| **Proteção de equipamentos** | ⚠️ Parcial — apenas em casos de fuga que poderia causar incêndio | ✔️ Sim — protege contra surtos de alta tensão |
-| **Fenômeno elétrico monitorado** | Corrente diferencial entre fase e neutro | Elevação instantânea de tensão acima do valor nominal |
-| **Elemento de atuação** | Transformador toroidal + mecanismo de disparo | Varistor (MOV), centelhador (GDT) ou Spark Gap |
-| **Tipo de grandeza que dispara a atuação** | Corrente residual (mA) | Sobretensão (kV) |
-| **Tempo de resposta** | Milissegundos | Microssegundos |
-| **Modo de proteção** | Abre o circuito (desligamento) | Desvia energia para o terra (sem desligar) |
-| **Desarma o circuito?** | ✔️ Sim | ❌ Não — apenas limita/ desvia tensão |
-| **Obrigatoriedade NBR 5410** | Obrigatório em áreas molhadas e circuitos específicos | Recomendado/obrigatório conforme análise de risco |
-| **Instalação** | Em série com o circuito | Em paralelo com o circuito (entre fase-neutro/terra) |
-
----
-## 6. Diferença entre DR e DDR
-
-### DR – Dispositivo Diferencial-Residual
-Também conhecido como **IDR (Interruptor Diferencial Residual)**.
-
-**Função principal:** proteger pessoas contra choques elétricos.  
-O DR atua quando detecta **corrente de fuga**, ou seja, diferença entre a corrente que sai pela fase e retorna pelo neutro.
-
-#### Características:
-- ✔ Protege contra choque elétrico  
-- ❌ Não protege contra sobrecarga  
-- ❌ Não protege contra curto-circuito  
-- Contém **somente o módulo diferencial residual**
-
-O DR **desarma apenas por fuga de corrente**.
+## **Função Principal**
+| Dispositivo | Finalidade |
+|------------|------------|
+| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
+| **DPS** | Protege **equipamentos** contra surtos de tensão. |
+| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
 
 ---
 
-### DDR – Disjuntor Diferencial Residual
-É a combinação de dois dispositivos em um só:
-
-- **DR** (proteção diferencial)  
-- **Disjuntor termomagnético** (proteção contra sobrecorrente)
-
-#### Características:
-- ✔ Protege contra choque elétrico  
-- ✔ Protege contra sobrecarga  
-- ✔ Protege contra curto-circuito  
-- Substitui o disjuntor do circuito  
-- Equivale ao **RCBO** nas normas internacionais
-
-O DDR possui **todas as proteções em um único dispositivo**.
-
----
-
-### Resumo Comparativo
-
-| Característica | DR | DDR |
-|----------------|-----|------|
-| Proteção contra choque | ✔ | ✔ |
-| Proteção contra sobrecarga | ✖ | ✔ |
-| Proteção contra curto-circuito | ✖ | ✔ |
-| Substitui o disjuntor termomagnético? | ✖ Não | ✔ Sim |
-| Conteúdo interno | Apenas diferencial residual | Diferencial + termomagnético |
-| Nome técnico (IEC) | IDR | RCBO |
+## **Comparação Técnica**
+| Critério | **DR** | **DPS** | **DDR** |
+|---------|--------|---------|---------|
+| Proteção contra choques | ✔ | ❌ | ✔ |
+| Proteção contra sobretensão | ✖ | ✔ | ✖ |
+| Proteção contra sobrecarga | ✖ | ✖ | ✔ |
+| Proteção contra curto-circuito | ✖ | ✖ | ✔ |
+| Substitui o disjuntor termomagnético? | ❌ Não | ❌ Não | ✔ Sim |
+| Grandeza monitorada | Corrente residual | Tensão (surtos) | Corrente residual + sobrecarga + curto |
+| Elemento de atuação | Toroide + disparo | MOV, GDT, Spark Gap | Toroide + disjuntor termomagnético |
+| Tempo de resposta | ms | μs | ms (DR) + rápida (TM) |
+| Modo de atuação | Desliga o circuito | Desvia energia ao terra | Desliga o circuito |
+| Instalação | Em série | Em paralelo | Em série |
+| Obrigatoriedade (NBR 5410) | Alta (áreas molhadas, tomadas específicas) | Por análise de risco | Solução completa |
 
 ---
 
-### Forma simples de lembrar
+## **Aplicação Ideal**
+| Situação | Dispositivo recomendado |
+|----------|--------------------------|
+| Proteção da vida humana | **DR** ou **DDR** |
+| Proteção de eletrônicos sensíveis | **DPS** |
+| Painéis modernos compactos | **DDR** |
+| Locais com risco de surto atmosférico | **DPS** |
 
-- **DR = protege pessoas**  
-- **DDR = protege pessoas + protege cabos/equipamentos**
+---
+
+## **Resumo de Memorização**
+- **DR = Protege Pessoas**  
+- **DPS = Protege Equipamentos (surtos)**  
+- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
+
+
+---
+
+
+# **QUADRO COMPARATIVO – DR × DPS × DDR**
+
+## **Função Principal**
+| Dispositivo | Finalidade |
+|------------|------------|
+| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
+| **DPS** | Protege **equipamentos** contra surtos de tensão. |
+| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
+
+---
+
+## **Comparação Técnica**
+| Critério | **DR** | **DPS** | **DDR** |
+|---------|--------|---------|---------|
+| Proteção contra choques | ✔ | ❌ | ✔ |
+| Proteção contra sobretensão | ✖ | ✔ | ✖ |
+| Proteção contra sobrecarga | ✖ | ✖ | ✔ |
+| Proteção contra curto-circuito | ✖ | ✖ | ✔ |
+| Substitui o disjuntor termomagnético? | ❌ Não | ❌ Não | ✔ Sim |
+| Grandeza monitorada | Corrente residual | Tensão (surtos) | Corrente residual + sobrecarga + curto |
+| Elemento de atuação | Toroide + disparo | MOV, GDT, Spark Gap | Toroide + disjuntor termomagnético |
+| Tempo de resposta | ms | μs | ms (DR) + rápida (TM) |
+| Modo de atuação | Desliga o circuito | Desvia energia ao terra | Desliga o circuito |
+| Instalação | Em série | Em paralelo | Em série |
+| Obrigatoriedade (NBR 5410) | Alta (áreas molhadas, tomadas específicas) | Por análise de risco | Solução completa |
+
+---
+
+## **Aplicação Ideal**
+| Situação | Dispositivo recomendado |
+|----------|--------------------------|
+| Proteção da vida humana | **DR** ou **DDR** |
+| Proteção de eletrônicos sensíveis | **DPS** |
+| Painéis modernos compactos | **DDR** |
+| Locais com risco de surto atmosférico | **DPS** |
+
+---
+
+## **Resumo de Memorização**
+- **DR = Protege Pessoas**  
+- **DPS = Protege Equipamentos (surtos)**  
+- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
+
+
+
 
 ---
 
