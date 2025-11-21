@@ -126,22 +126,69 @@ O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
 
 ### 2.3. DPS – Princípio de Funcionamento
 
-O DPS **não desliga** o circuito.  
-Ele protege desviando **surtos de tensão** para o terra antes que danifiquem os equipamentos.
+O **DPS (Dispositivo de Proteção contra Surtos)** não desliga o circuito.  
+Sua função é **desviar e limitar surtos de tensão**, impedindo que eles atinjam e danifiquem equipamentos eletrônicos.
 
-Ele opera com **varistores (MOV)** ou **centelhadores**.
+Esses surtos podem ser causados por:
 
-#### Como funciona:
+- descargas atmosféricas (raios);
+- chaveamentos na rede pública;
+- manobras da concessionária;
+- motores e cargas indutivas ligando/desligando;
+- variações bruscas dentro da própria instalação.
 
-1. Em condições normais: DPS tem alta impedância.  
-2. Quando ocorre um surto: a tensão sobe subitamente.  
-3. O DPS diminui sua resistência e desvia o surto para o terra.  
-4. Após o evento, retorna à condição normal (MOV) ou precisa ser substituído (centelhador).
+Mesmo surtos muito rápidos (microssegundos) podem danificar equipamentos sensíveis como TVs, roteadores, computadores e sistemas de automação.
 
-#### Em resumo:
+---
 
-- Tensão normal → DPS não interfere  
-- Surto → **DPS atua desviando a sobretensão**
+###  Como o DPS trabalha internamente
+
+O DPS funciona como um “caminho alternativo” para a sobretensão.  
+Em vez de permitir que o pico atinja os equipamentos, ele **desvia o excesso de energia para o terra**.
+
+Para isso, utiliza dois componentes principais:
+
+---
+
+###  2.3.1. Varistores (MOV – Metal Oxide Varistor)
+
+O varistor é o componente mais comum em DPS residenciais (Tipo 2 e Tipo 3).
+
+### Funcionamento:
+
+- **Condição normal:** resistência muito alta (quase aberto).
+- **Durante o surto:** a tensão sobe rapidamente.
+- O varistor **reduz sua resistência**, conduzindo o excesso para o terra.
+- Após o surto, volta ao estado normal, mas sofre desgaste e pode precisar ser substituído.
+
+---
+
+### 2.3.2. Centelhadores (Spark Gap / GDT – Gas Discharge Tube)
+
+Comum em DPS Tipo 1 e aplicações industriais.
+
+### Funcionamento:
+
+- **Condição normal:** circuito aberto, sem condução.
+- **Durante surtos fortes:** a alta tensão ioniza o gás interno.
+- O centelhador **fecha o circuito**, desviando grandes correntes para o terra.
+- Após o surto, o arco elétrico se extingue e o dispositivo volta ao estado normal.
+
+---
+
+### 2.3.2. O que o DPS faz e não faz
+
+#### O DPS faz:
+- desvia surtos para o terra;
+- limita picos de tensão em níveis seguros;
+- protege equipamentos eletrônicos sensíveis;
+- atua em microssegundos.
+
+#### O DPS não faz:
+- não desarma o circuito;
+- não protege contra sobrecarga;
+- não protege contra curto-circuito;
+- não substitui o DR ou o disjuntor.
 
 ---
 
@@ -209,22 +256,75 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ## 5. Comparação – DR x DPS
 
-| Função | DR | DPS |
-|--------|-----|------|
-| Proteção de pessoas | ✔️ | ❌ |
-| Proteção de equipamentos | ❓ | ✔️ |
-| Atua em corrente de fuga | ✔️ | ❌ |
-| Atua em surtos | ❌ | ✔️ |
-| Desarma | ✔️ | ❌ |
+|## 5. Comparação Técnica – DR x DPS
+
+| Critério Técnico | DR (Dispositivo Diferencial-Residual) | DPS (Dispositivo de Proteção contra Surtos) |
+|------------------|----------------------------------------|----------------------------------------------|
+| **Finalidade principal** | Proteção contra choques elétricos por corrente de fuga | Proteção contra sobretensões transitórias (surtos) |
+| **Proteção de pessoas** | ✔️ Sim — evita fibrilação cardíaca e choques indiretos | ❌ Não — não detecta corrente através do corpo |
+| **Proteção de equipamentos** | ⚠️ Parcial — apenas em casos de fuga que poderia causar incêndio | ✔️ Sim — protege contra surtos de alta tensão |
+| **Fenômeno elétrico monitorado** | Corrente diferencial entre fase e neutro | Elevação instantânea de tensão acima do valor nominal |
+| **Elemento de atuação** | Transformador toroidal + mecanismo de disparo | Varistor (MOV), centelhador (GDT) ou Spark Gap |
+| **Tipo de grandeza que dispara a atuação** | Corrente residual (mA) | Sobretensão (kV) |
+| **Tempo de resposta** | Milissegundos | Microssegundos |
+| **Modo de proteção** | Abre o circuito (desligamento) | Desvia energia para o terra (sem desligar) |
+| **Desarma o circuito?** | ✔️ Sim | ❌ Não — apenas limita/ desvia tensão |
+| **Obrigatoriedade NBR 5410** | Obrigatório em áreas molhadas e circuitos específicos | Recomendado/obrigatório conforme análise de risco |
+| **Instalação** | Em série com o circuito | Em paralelo com o circuito (entre fase-neutro/terra) |
+
+---
+## 6. Diferença entre DR e DDR
+
+### DR – Dispositivo Diferencial-Residual
+Também conhecido como **IDR (Interruptor Diferencial Residual)**.
+
+**Função principal:** proteger pessoas contra choques elétricos.  
+O DR atua quando detecta **corrente de fuga**, ou seja, diferença entre a corrente que sai pela fase e retorna pelo neutro.
+
+#### Características:
+- ✔ Protege contra choque elétrico  
+- ❌ Não protege contra sobrecarga  
+- ❌ Não protege contra curto-circuito  
+- Contém **somente o módulo diferencial residual**
+
+O DR **desarma apenas por fuga de corrente**.
 
 ---
 
-## 6. Exemplo Prático – Residência
+### DDR – Disjuntor Diferencial Residual
+É a combinação de dois dispositivos em um só:
 
-1. Disjuntor geral  
-2. DPS tipo 2  
-3. DR 30 mA  
-4. Disjuntores dos circuitos  
+- **DR** (proteção diferencial)  
+- **Disjuntor termomagnético** (proteção contra sobrecorrente)
+
+#### Características:
+- ✔ Protege contra choque elétrico  
+- ✔ Protege contra sobrecarga  
+- ✔ Protege contra curto-circuito  
+- Substitui o disjuntor do circuito  
+- Equivale ao **RCBO** nas normas internacionais
+
+O DDR possui **todas as proteções em um único dispositivo**.
+
+---
+
+### Resumo Comparativo
+
+| Característica | DR | DDR |
+|----------------|-----|------|
+| Proteção contra choque | ✔ | ✔ |
+| Proteção contra sobrecarga | ✖ | ✔ |
+| Proteção contra curto-circuito | ✖ | ✔ |
+| Substitui o disjuntor termomagnético? | ✖ Não | ✔ Sim |
+| Conteúdo interno | Apenas diferencial residual | Diferencial + termomagnético |
+| Nome técnico (IEC) | IDR | RCBO |
+
+---
+
+### Forma simples de lembrar
+
+- **DR = protege pessoas**  
+- **DDR = protege pessoas + protege cabos/equipamentos**
 
 ---
 
