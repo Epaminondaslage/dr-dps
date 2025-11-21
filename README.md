@@ -5,7 +5,7 @@
 ## **Coordenação do Curso de Eletrotécnica**  
 
 ## Disciplina: **PLIP - Prática de Laboratório de Instalações Prediais**
-## Guia de Aula – DR e DPS (Dispositivo Diferencial-Residual e Dispositivo de Proteção contra Surtos)
+## Guia de Aula – DR, DDR e DPS (Dispositivo Diferencial-Residual e Dispositivo de Proteção contra Surtos)
 
 ## 1. Introdução Geral
 
@@ -13,6 +13,7 @@ As instalações elétricas modernas precisam garantir segurança para as pessoa
 Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 
 - **DR (Dispositivo Diferencial-Residual)** – protege pessoas contra choque elétrico.  
+- **DDR (Disjuntores Diferenciais Residuais)** - protege pessoas + cabos + equipamentos (diferencial + termomagnético)
 - **DPS (Dispositivo de Proteção contra Surtos)** – protege equipamentos contra sobretensões transitórias.
 
 Esses dispositivos atuam em fenômenos diferentes e não substituem disjuntores.  
@@ -129,7 +130,7 @@ Os DR são classificados conforme o tipo de corrente diferencial que conseguem d
 
 ---
 
-### 2.2 Disjuntores Diferenciais Residuais (DDR / DR)
+### 2.2 Disjuntores Diferenciais Residuais (DDR)
 
 Os **disjuntores diferenciais residuais (DDR)** — também conhecidos como **DR** ou **IDR (Interruptor Diferencial Residual)** — são dispositivos essenciais em instalações elétricas, pois **protegem pessoas contra choques elétricos** e **protegem os circuitos contra sobrecargas e curto-circuitos** quando integrados ao disjuntor termomagnético.
 
@@ -265,7 +266,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 ## 3. Comparação – DR x DPS xDDR
 
 
-## **Função Principal**
+### **Função Principal**
 | Dispositivo | Finalidade |
 |------------|------------|
 | **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
@@ -274,7 +275,36 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-## **Comparação Técnica**
+### **Aplicação Ideal**
+| Situação | Dispositivo recomendado |
+|----------|--------------------------|
+| Proteção da vida humana | **DR** ou **DDR** |
+| Proteção de eletrônicos sensíveis | **DPS** |
+| Painéis modernos compactos | **DDR** |
+| Locais com risco de surto atmosférico | **DPS** |
+
+---
+
+### **Resumo de Memorização**
+- **DR = Protege Pessoas**  
+- **DPS = Protege Equipamentos (surtos)**  
+- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
+
+
+---
+
+### **QUADRO COMPARATIVO – DR × DPS × DDR**
+
+#### **Função Principal**
+| Dispositivo | Finalidade |
+|------------|------------|
+| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
+| **DPS** | Protege **equipamentos** contra surtos de tensão. |
+| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
+
+---
+
+### **Comparação Técnica**
 | Critério | **DR** | **DPS** | **DDR** |
 |---------|--------|---------|---------|
 | Proteção contra choques | ✔ | ❌ | ✔ |
@@ -291,7 +321,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-## **Aplicação Ideal**
+### **Aplicação **
 | Situação | Dispositivo recomendado |
 |----------|--------------------------|
 | Proteção da vida humana | **DR** ou **DDR** |
@@ -301,64 +331,14 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-## **Resumo de Memorização**
+### **Resumo de Memorização**
 - **DR = Protege Pessoas**  
-- **DPS = Protege Equipamentos (surtos)**  
 - **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
-
-
----
-
-
-# **QUADRO COMPARATIVO – DR × DPS × DDR**
-
-## **Função Principal**
-| Dispositivo | Finalidade |
-|------------|------------|
-| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
-| **DPS** | Protege **equipamentos** contra surtos de tensão. |
-| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
-
----
-
-## **Comparação Técnica**
-| Critério | **DR** | **DPS** | **DDR** |
-|---------|--------|---------|---------|
-| Proteção contra choques | ✔ | ❌ | ✔ |
-| Proteção contra sobretensão | ✖ | ✔ | ✖ |
-| Proteção contra sobrecarga | ✖ | ✖ | ✔ |
-| Proteção contra curto-circuito | ✖ | ✖ | ✔ |
-| Substitui o disjuntor termomagnético? | ❌ Não | ❌ Não | ✔ Sim |
-| Grandeza monitorada | Corrente residual | Tensão (surtos) | Corrente residual + sobrecarga + curto |
-| Elemento de atuação | Toroide + disparo | MOV, GDT, Spark Gap | Toroide + disjuntor termomagnético |
-| Tempo de resposta | ms | μs | ms (DR) + rápida (TM) |
-| Modo de atuação | Desliga o circuito | Desvia energia ao terra | Desliga o circuito |
-| Instalação | Em série | Em paralelo | Em série |
-| Obrigatoriedade (NBR 5410) | Alta (áreas molhadas, tomadas específicas) | Por análise de risco | Solução completa |
-
----
-
-## **Aplicação Ideal**
-| Situação | Dispositivo recomendado |
-|----------|--------------------------|
-| Proteção da vida humana | **DR** ou **DDR** |
-| Proteção de eletrônicos sensíveis | **DPS** |
-| Painéis modernos compactos | **DDR** |
-| Locais com risco de surto atmosférico | **DPS** |
-
----
-
-## **Resumo de Memorização**
-- **DR = Protege Pessoas**  
 - **DPS = Protege Equipamentos (surtos)**  
-- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
-
-
-
 
 ---
 
-## 7. Dicas de Segurança
+## 4. Dicas de Segurança
 
 - Nunca usar neutro como terra  
 - Usar tomadas com pino terra  
@@ -367,5 +347,5 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-## 8. Atividade Prática
+## 5. Atividade Prática
 
