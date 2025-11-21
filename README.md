@@ -39,10 +39,92 @@ O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, 
 - Corrente equilibrada → funcionamento normal  
 - Corrente desequilibrada → **DR desarma e protege o usuário**
 
+### 2.2 Disjuntores Diferenciais Residuais (DDR / DR)
+
+Os **disjuntores diferenciais residuais (DDR)** — também conhecidos como **DR** ou **IDR (Interruptor Diferencial Residual)** — são dispositivos essenciais em instalações elétricas, pois **protegem pessoas contra choques elétricos** e **protegem os circuitos contra sobrecargas e curto-circuitos** quando integrados ao disjuntor termomagnético.
+
+Eles combinam duas funções em um único equipamento:
+
+- **Função diferencial (DR):** detecta fugas de corrente e protege contra choques.
+- **Função termomagnética:** protege o circuito contra sobrecarga e curto-circuito.
 
 ---
 
-### 2.2. DPS – Princípio de Funcionamento
+###  O que é fuga de corrente?
+
+Fuga de corrente é quando parte da corrente elétrica escapa do circuito e passa por um caminho não previsto, como:
+
+- o corpo de uma pessoa;
+- o sistema de aterramento;
+- fios com isolação danificada;
+- um equipamento com falha interna.
+
+Correntes tão pequenas quanto **30 mA** já podem ser fatais.  
+O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acidentes graves.
+
+---
+
+###  Funcionamento do Disjuntor Diferencial Residual
+
+O DDR contém um **transformador toroidal** por onde passam os condutores de fase e neutro. Ele monitora se:
+
+- a corrente que **entra** pela fase retorna **integralmente** pelo neutro;
+- ou se parte dela está escapando (fuga).
+
+####  Operação normal
+Corrente da fase = corrente do neutro.  
+A soma das correntes é zero, e o DDR permanece ligado.
+
+####  Situação de fuga
+Parte da corrente “se perde” pelo terra ou pelo corpo humano → ocorre desequilíbrio.  
+O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
+
+---
+
+###  Vantagens do DDR
+
+- Proteção contra choques diretos e indiretos  
+- Prevenção de incêndios provocados por fuga de corrente  
+- Detecção de falhas de isolamento  
+- Em modelos integrados, substitui DR + disjuntor  
+- Obrigatório em áreas de risco conforme NBR 5410  
+
+---
+
+###  Tipos de DR
+
+#### Por sensibilidade
+- **30 mA:** proteção de pessoas  
+- **100 mA:** proteção complementar  
+- **300 mA:** proteção contra incêndios (uso industrial)
+
+#### Por forma da corrente de fuga detectada
+| Tipo | Características | Aplicação |
+|------|----------------|-----------|
+| **AC** | detecta correntes residuais senoidais | cargas simples |
+| **A** | detecta AC + pulsantes | eletrodomésticos modernos |
+| **F** | detecta correntes mistas | motores controlados |
+| **B** | detecta AC + DC + harmônicas | fotovoltaico, VFD, veículos elétricos |
+
+#### Por número de polos
+- **Bipolar:** fase + neutro  
+- **Tetrapolar:** trifásico + neutro  
+
+---
+
+
+###  Regras importantes de instalação
+
+- O neutro **não pode ser aterrado após o DR**  
+- Não deve haver **neutro compartilhado** entre circuitos protegidos  
+- O DR deve estar antes das derivações que alimentam os circuitos  
+- O sistema deve possuir aterramento adequado  
+
+
+
+---
+
+### 2.3. DPS – Princípio de Funcionamento
 
 O DPS **não desliga** o circuito.  
 Ele protege desviando **surtos de tensão** para o terra antes que danifiquem os equipamentos.
