@@ -312,18 +312,8 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **QUADRO COMPARATIVO – DR × DPS × DDR**
+### QUADRO COMPARATIVO – DR × DPS × DDR
 
-#### **Função Principal**
-| Dispositivo | Finalidade |
-|------------|------------|
-| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
-| **DPS** | Protege **equipamentos** contra surtos de tensão. |
-| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
-
----
-
-### **Comparação Técnica**
 | Critério | **DR** | **DPS** | **DDR** |
 |---------|--------|---------|---------|
 | Proteção contra choques | ✔ | ❌ | ✔ |
