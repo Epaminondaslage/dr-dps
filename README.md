@@ -88,7 +88,7 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 - **100 mA:** proteção complementar  
 - **300 mA:** proteção contra incêndios (uso industrial)
   
-<img src="img/dps-clamper.jpg" style="width: 20%; height: auto;" />
+<img src="img/tipos-dr.jpg" style="width: 20%; height: auto;" >
 
 #### Por forma da corrente de fuga detectada
 | Tipo | Características | Aplicação |
@@ -154,7 +154,7 @@ Os DR são classificados conforme o tipo de corrente diferencial que conseguem d
 Os **disjuntores diferenciais residuais (DDR)** — também conhecidos como **DR** ou **IDR (Interruptor Diferencial Residual)** — são dispositivos essenciais em instalações elétricas, pois **protegem pessoas contra choques elétricos** e **protegem os circuitos contra sobrecargas e curto-circuitos** quando integrados ao disjuntor termomagnético.
 
 
-<img src="img/disj_dif_residual.png" style="width: 20%; height: auto;" />
+<img src="img/disj_dif_residual.png" style="width: 50%; height: auto;" >
 
 Eles combinam duas funções em um único equipamento:
 
