@@ -29,9 +29,6 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
     </tr>
 </table>
 
-
-
-
 - **DR (Dispositivo Diferencial-Residual)** – protege pessoas contra choque elétrico.  
 - **DDR (Disjuntores Diferenciais Residuais)** - protege pessoas + cabos + equipamentos (diferencial + termomagnético)
 - **DPS (Dispositivo de Proteção contra Surtos)** – protege equipamentos contra sobretensões transitórias.
@@ -48,7 +45,7 @@ Eles complementam a proteção da instalação e são obrigatórios em diversos 
 
 O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, toda a corrente que entra no circuito pela fase deve retornar pelo neutro. Para monitorar isso, o dispositivo utiliza um **transformador toroidal**, por onde passam os condutores de fase e neutro. Esse núcleo avalia continuamente a soma vetorial das correntes.
 
-<img src="img/dp-bipolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" />
+<img src="img/dp-bipolar.jpg" style="width: 20%; ">
 
 #### Como o DR atua:
 
