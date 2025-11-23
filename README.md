@@ -18,10 +18,10 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 <table style="border-collapse: collapse; border: none; width: 40%; margin: auto;">
     <tr style="border: none;">
         <td style="border: none; width: 50%; text-align: center;">
-            <img src="img/dps-clamper.jpg" style="width: 20%; height: auto; display: block; margin: auto;" />
+            <img src="img/dr-weg.jpg" style="width: 20%; height: auto; display: block; margin: auto;" />
         </td>
         <td style="border: none; width: 50%; text-align: center;">
-            <img src="img/dr-weg.jpg" style="width: 20%; height: auto; display: block; margin: auto;" />
+             <img src="img/dps-clamper.jpg" style="width: 20%; height: auto; display: block; margin: auto;" /> 
         </td>
     </tr>
 </table>
@@ -101,7 +101,7 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 #### Por número de polos
 - **Bipolar:** fase + neutro  
 - **Tetrapolar:** trifásico + neutro
-- 
+  
 <img src="img/tipos-dr.jpg" style="width: 50%;" >
 ---
 
