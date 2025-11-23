@@ -17,14 +17,14 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 
 <table style="border-collapse: collapse; border: none; width: 40%; margin: auto;">
     <tr style="border: none;">
-        <td style="border: none; width: 50%; text-align: center;">
-            <img src="img/dr-weg.jpg" style="width: 20%; height: auto; display: block; margin: auto;" />
+        <td style="border: none; width: 30%; text-align: center;">
+            <img src="img/dr-weg.jpg" style="width: 40%; height: auto; display: block; margin: auto;" />
         </td>
-        <td style="border: none; width: 50%; text-align: center;">
-             <img src="img/dp-bipolar.jpg" style="width: 20%; height: auto; display: block; margin: auto;" /> 
+        <td style="border: none; width: 30%; text-align: center;">
+             <img src="img/dp-bipolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
         </td>
-        <td style="border: none; width: 50%; text-align: center;">
-             <img src="img/dps-clamper.jpg" style="width: 20%; height: auto; display: block; margin: auto;" /> 
+        <td style="border: none; width: 30%; text-align: center;">
+             <img src="img/dps-clamper.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
         </td>
     </tr>
 </table>
