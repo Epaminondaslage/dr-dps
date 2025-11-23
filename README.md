@@ -58,6 +58,8 @@ O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, 
 
 - **Atuação:**  
   Se essa corrente diferencial-residual ultrapassar o limite de sensibilidade (como **30 mA**, usado para proteção humana), o sistema de disparo interna­mente aciona o mecanismo de abertura, desligando o circuito **em poucos milissegundos**, interrompendo o risco de choque ou incêndio.
+  
+<img src="img/tipos_disj_dif_residual.png" style="width: 50%;" >
 
 #### Em resumo:
 
@@ -87,9 +89,7 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 - **30 mA:** proteção de pessoas  
 - **100 mA:** proteção complementar  
 - **300 mA:** proteção contra incêndios (uso industrial)
-  
-<img src="img/tipos-dr.jpg" style="width: 50%;" >
-
+ 
 #### Por forma da corrente de fuga detectada
 | Tipo | Características | Aplicação |
 |------|----------------|-----------|
@@ -100,8 +100,9 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 
 #### Por número de polos
 - **Bipolar:** fase + neutro  
-- **Tetrapolar:** trifásico + neutro  
-
+- **Tetrapolar:** trifásico + neutro
+- 
+<img src="img/tipos-dr.jpg" style="width: 50%;" >
 ---
 
 
