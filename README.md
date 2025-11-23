@@ -17,17 +17,17 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 
 <table style="border-collapse: collapse; border: none; width: 40%; margin: auto;">
     <tr style="border: none;">
-        <td style="border: none; width: 50%; text-align: center;">
-            <img src="img/dr-weg.jpg" style="width: 20%; height: auto; display: block; margin: auto;" />
+        <td style="border: none; width: 30%; text-align: center;">
+            <img src="img/dr-weg.jpg" style="width: 40%; height: auto; display: block; margin: auto;" />
         </td>
-        <td style="border: none; width: 50%; text-align: center;">
-             <img src="img/dps-clamper.jpg" style="width: 20%; height: auto; display: block; margin: auto;" /> 
+        <td style="border: none; width: 30%; text-align: center;">
+             <img src="img/dr-tripolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
+        </td>
+        <td style="border: none; width: 30%; text-align: center;">
+             <img src="img/dps-clamper.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
         </td>
     </tr>
 </table>
-
-
-
 
 - **DR (Dispositivo Diferencial-Residual)** – protege pessoas contra choque elétrico.  
 - **DDR (Disjuntores Diferenciais Residuais)** - protege pessoas + cabos + equipamentos (diferencial + termomagnético)
@@ -44,6 +44,8 @@ Eles complementam a proteção da instalação e são obrigatórios em diversos 
 ### 2.1. DR – Princípio de Funcionamento 
 
 O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, toda a corrente que entra no circuito pela fase deve retornar pelo neutro. Para monitorar isso, o dispositivo utiliza um **transformador toroidal**, por onde passam os condutores de fase e neutro. Esse núcleo avalia continuamente a soma vetorial das correntes.
+
+<img src="img/dp-bipolar.jpg" style="width: 20%; ">
 
 #### Como o DR atua:
 
@@ -103,8 +105,8 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 - **Tetrapolar:** trifásico + neutro
   
 <img src="img/tipos-dr.jpg" style="width: 50%;" >
----
 
+---
 
 ###  Regras importantes de instalação
 
@@ -117,26 +119,26 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 
 Os DR são classificados conforme o tipo de corrente diferencial que conseguem detectar:
 
-### **DR Tipo AC**
+**DR Tipo AC**
 - Detecta apenas **correntes residuais senoidais puras (AC)**.
 - Usado em cargas simples.
 - **Menos recomendado** para instalações residenciais modernas.
 
-### **DR Tipo A**
+**DR Tipo A**
 - Detecta correntes residuais:
   - senoidais (AC)
   - pulsantes (meia onda)
 - Compatível com eletrodomésticos modernos com eletrônica.
 - **É o tipo recomendado para residências.**
 
-### **DR Tipo F**
+**DR Tipo F**
 - Detecta correntes:
   - senoidais  
   - pulsantes  
   - de frequência mista  
 - Suporta cargas com motores controlados por inversores, soft-starters, etc.
 
-### **DR Tipo B**
+**DR Tipo B**
 - Detecta:
   - AC  
   - DC  
@@ -146,7 +148,6 @@ Os DR são classificados conforme o tipo de corrente diferencial que conseguem d
   - sistemas fotovoltaicos  
   - carregadores de veículos elétricos  
   - inversores industriais  
-
 
 ---
 
@@ -188,13 +189,14 @@ O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
 - Em modelos integrados, substitui DR + disjuntor  
 - Obrigatório em áreas de risco conforme NBR 5410  
 
-
 ---
 
 ### 2.3. DPS – Princípio de Funcionamento
 
 O **DPS (Dispositivo de Proteção contra Surtos)** não desliga o circuito.  
 Sua função é **desviar e limitar surtos de tensão**, impedindo que eles atinjam e danifiquem equipamentos eletrônicos.
+
+<img src="img/dps-clamper.jpg" style="width: 20%; ">
 
 Esses surtos podem ser causados por:
 
@@ -259,17 +261,16 @@ Comum em DPS Tipo 1 e aplicações industriais.
 
 ---
 
-
 ### 2.4. Tipos de DPS 
 
 Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
-### **DPS Tipo 1**
+**DPS Tipo 1**
 - Projetado para suportar **correntes impulsivas** muito altas.  
 - Necessário quando há **SPDA (para-raios)** na edificação.  
 - Protege contra descargas atmosféricas **diretas** na instalação.
 
-### **DPS Tipo 2**
+**DPS Tipo 2**
 - Mais utilizado em residências.  
 - Deve ser instalado no **quadro principal**.  
 - Protege contra:
@@ -277,7 +278,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
   - chaveamentos da concessionária  
   - manobras de grandes cargas
 
-### **DPS Tipo 3**
+**DPS Tipo 3**
 - Proteção fina e complementar.  
 - Instalado próximo a equipamentos sensíveis (TV, computadores, roteadores).  
 - Geralmente aparece em:
@@ -289,7 +290,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 ## 3. Comparação – DR x DPS xDDR
 
 
-### **Função Principal**
+**Função Principal**
 | Dispositivo | Finalidade |
 |------------|------------|
 | **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
@@ -298,7 +299,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Aplicação Ideal**
+**Aplicação Ideal**
 | Situação | Dispositivo recomendado |
 |----------|--------------------------|
 | Proteção da vida humana | **DR** ou **DDR** |
@@ -308,26 +309,8 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Resumo de Memorização**
-- **DR = Protege Pessoas**  
-- **DPS = Protege Equipamentos (surtos)**  
-- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
+### QUADRO COMPARATIVO – DR × DPS × DDR
 
-
----
-
-### **QUADRO COMPARATIVO – DR × DPS × DDR**
-
-#### **Função Principal**
-| Dispositivo | Finalidade |
-|------------|------------|
-| **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
-| **DPS** | Protege **equipamentos** contra surtos de tensão. |
-| **DDR** | Protege **pessoas + cabos + equipamentos** (diferencial + termomagnético). |
-
----
-
-### **Comparação Técnica**
 | Critério | **DR** | **DPS** | **DDR** |
 |---------|--------|---------|---------|
 | Proteção contra choques | ✔ | ❌ | ✔ |
@@ -344,20 +327,13 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Aplicação **
+### Aplicação 
 | Situação | Dispositivo recomendado |
 |----------|--------------------------|
 | Proteção da vida humana | **DR** ou **DDR** |
 | Proteção de eletrônicos sensíveis | **DPS** |
 | Painéis modernos compactos | **DDR** |
 | Locais com risco de surto atmosférico | **DPS** |
-
----
-
-### **Resumo de Memorização**
-- **DR = Protege Pessoas**  
-- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
-- **DPS = Protege Equipamentos (surtos)**  
 
 ---
 
@@ -371,4 +347,16 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 ---
 
 ## 5. Atividade Prática
+
+### 1. Montar um disjuntor termomagnetico e um DR em rede de 127V
+
+<img src="img/DR-127v.jpg" style="width: 20%; ">
+
+### 2. Montar um disjuntor termomagnetico e um DR em rede de 220V 
+
+<img src="img/dr-220v-linha.jpg" style="width: 20%; ">
+
+### 3. Montar um  DPS  em rede de 127V ou 220V  conforme a disponibilidade
+
+<img src="img/dps-bipolar-lig.jpg" style="width: 20%; ">
 
