@@ -105,8 +105,8 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 - **Tetrapolar:** trifásico + neutro
   
 <img src="img/tipos-dr.jpg" style="width: 50%;" >
----
 
+---
 
 ###  Regras importantes de instalação
 
@@ -119,26 +119,26 @@ O DDR identifica essa fuga e **desliga o circuito imediatamente**, evitando acid
 
 Os DR são classificados conforme o tipo de corrente diferencial que conseguem detectar:
 
-### **DR Tipo AC**
+**DR Tipo AC**
 - Detecta apenas **correntes residuais senoidais puras (AC)**.
 - Usado em cargas simples.
 - **Menos recomendado** para instalações residenciais modernas.
 
-### **DR Tipo A**
+**DR Tipo A**
 - Detecta correntes residuais:
   - senoidais (AC)
   - pulsantes (meia onda)
 - Compatível com eletrodomésticos modernos com eletrônica.
 - **É o tipo recomendado para residências.**
 
-### **DR Tipo F**
+**DR Tipo F**
 - Detecta correntes:
   - senoidais  
   - pulsantes  
   - de frequência mista  
 - Suporta cargas com motores controlados por inversores, soft-starters, etc.
 
-### **DR Tipo B**
+**DR Tipo B**
 - Detecta:
   - AC  
   - DC  
@@ -148,7 +148,6 @@ Os DR são classificados conforme o tipo de corrente diferencial que conseguem d
   - sistemas fotovoltaicos  
   - carregadores de veículos elétricos  
   - inversores industriais  
-
 
 ---
 
@@ -189,7 +188,6 @@ O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
 - Detecção de falhas de isolamento  
 - Em modelos integrados, substitui DR + disjuntor  
 - Obrigatório em áreas de risco conforme NBR 5410  
-
 
 ---
 
@@ -263,17 +261,16 @@ Comum em DPS Tipo 1 e aplicações industriais.
 
 ---
 
-
 ### 2.4. Tipos de DPS 
 
 Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
-### **DPS Tipo 1**
+**DPS Tipo 1**
 - Projetado para suportar **correntes impulsivas** muito altas.  
 - Necessário quando há **SPDA (para-raios)** na edificação.  
 - Protege contra descargas atmosféricas **diretas** na instalação.
 
-### **DPS Tipo 2**
+**DPS Tipo 2**
 - Mais utilizado em residências.  
 - Deve ser instalado no **quadro principal**.  
 - Protege contra:
@@ -281,7 +278,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
   - chaveamentos da concessionária  
   - manobras de grandes cargas
 
-### **DPS Tipo 3**
+**DPS Tipo 3**
 - Proteção fina e complementar.  
 - Instalado próximo a equipamentos sensíveis (TV, computadores, roteadores).  
 - Geralmente aparece em:
@@ -293,7 +290,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 ## 3. Comparação – DR x DPS xDDR
 
 
-### **Função Principal**
+**Função Principal**
 | Dispositivo | Finalidade |
 |------------|------------|
 | **DR** | Protege **pessoas** contra choques elétricos (corrente de fuga). |
@@ -302,7 +299,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Aplicação Ideal**
+**Aplicação Ideal**
 | Situação | Dispositivo recomendado |
 |----------|--------------------------|
 | Proteção da vida humana | **DR** ou **DDR** |
@@ -330,7 +327,7 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Aplicação **
+### Aplicação 
 | Situação | Dispositivo recomendado |
 |----------|--------------------------|
 | Proteção da vida humana | **DR** ou **DDR** |
