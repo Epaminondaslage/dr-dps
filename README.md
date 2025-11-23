@@ -312,14 +312,6 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ---
 
-### **Resumo de Memorização**
-- **DR = Protege Pessoas**  
-- **DPS = Protege Equipamentos (surtos)**  
-- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
-
-
----
-
 ### **QUADRO COMPARATIVO – DR × DPS × DDR**
 
 #### **Função Principal**
@@ -355,13 +347,6 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 | Proteção de eletrônicos sensíveis | **DPS** |
 | Painéis modernos compactos | **DDR** |
 | Locais com risco de surto atmosférico | **DPS** |
-
----
-
-### **Resumo de Memorização**
-- **DR = Protege Pessoas**  
-- **DDR = DR + Disjuntor → Protege Pessoas + Cabos + Equipamentos**
-- **DPS = Protege Equipamentos (surtos)**  
 
 ---
 
