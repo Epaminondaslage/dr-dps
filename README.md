@@ -21,7 +21,8 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
             <img src="img/dr-weg.jpg" style="width: 40%; height: auto; display: block; margin: auto;" />
         </td>
         <td style="border: none; width: 30%; text-align: center;">
-             <img src="img/dp-bipolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
+             <img src="img/dr-tripolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
+            
         </td>
         <td style="border: none; width: 30%; text-align: center;">
              <img src="img/dps-clamper.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
@@ -47,6 +48,8 @@ Eles complementam a proteção da instalação e são obrigatórios em diversos 
 ### 2.1. DR – Princípio de Funcionamento 
 
 O DR funciona com base no **princípio do equilíbrio das correntes**, isto é, toda a corrente que entra no circuito pela fase deve retornar pelo neutro. Para monitorar isso, o dispositivo utiliza um **transformador toroidal**, por onde passam os condutores de fase e neutro. Esse núcleo avalia continuamente a soma vetorial das correntes.
+
+<img src="img/dp-bipolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" />
 
 #### Como o DR atua:
 
