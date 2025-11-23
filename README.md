@@ -15,6 +15,18 @@
 As instalações elétricas modernas precisam garantir segurança para as pessoas e proteção para os equipamentos.  
 Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 
+<table style="border-collapse: collapse; border: none; width: 100%;">
+    <tr style="border: none;">
+        <td style="border: none; text-align: center;">
+            <img src="https://raw.githubusercontent.com/Epaminondaslage/img/dps-clamper.jpg" width="20%" />
+        </td>
+        <td style="border: none; text-align: center;">
+            <img src="https://raw.githubusercontent.com/Epaminondaslage/img/dr-weg.jpg" width="20%" />
+        </td>
+    </tr>
+</table>
+
+
 - **DR (Dispositivo Diferencial-Residual)** – protege pessoas contra choque elétrico.  
 - **DDR (Disjuntores Diferenciais Residuais)** - protege pessoas + cabos + equipamentos (diferencial + termomagnético)
 - **DPS (Dispositivo de Proteção contra Surtos)** – protege equipamentos contra sobretensões transitórias.
