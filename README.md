@@ -22,7 +22,6 @@ Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
         </td>
         <td style="border: none; width: 30%; text-align: center;">
              <img src="img/dr-tripolar.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
-            
         </td>
         <td style="border: none; width: 30%; text-align: center;">
              <img src="img/dps-clamper.jpg" style="width: 40%; height: auto; display: block; margin: auto;" /> 
