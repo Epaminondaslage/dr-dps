@@ -348,3 +348,15 @@ Os DPS são classificados segundo sua capacidade de suportar e desviar surtos:
 
 ## 5. Atividade Prática
 
+### 1. Montar um disjuntor termomagnetico e um DR em rede de 127V
+
+<img src="img/DR-127v.jpg" style="width: 20%; ">
+
+### 2. Montar um disjuntor termomagnetico e um DR em rede de 220V 
+
+<img src="img/dr-220v-linha.jpg" style="width: 20%; ">
+
+### 3. Montar um  DPS  em rede de 127V ou 220V  conforme a disponibilidade
+
+<img src="img/dps-bipolar-lig.jpg" style="width: 20%; ">
+
