@@ -15,7 +15,7 @@
 As instalações elétricas modernas precisam garantir segurança para as pessoas e proteção para os equipamentos.  
 Para isso, a NBR 5410 estabelece o uso de dispositivos indispensáveis:
 
-<table style="border-collapse: collapse; border: none; width: 100%;">
+<table style="border-collapse: collapse; border: none; width: 50%;">
     <tr style="border: none; text-align: center;">
         <td style="border: none; width: 50%;">
             <img src="img/dps-clamper.jpg" style="max-width: 90%; height: auto;" />
