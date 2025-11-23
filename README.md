@@ -198,6 +198,8 @@ O DR detecta a corrente diferencial residual e **desarma em milissegundos**.
 O **DPS (Dispositivo de Proteção contra Surtos)** não desliga o circuito.  
 Sua função é **desviar e limitar surtos de tensão**, impedindo que eles atinjam e danifiquem equipamentos eletrônicos.
 
+<img src="img/dps-clamper.jpg" style="width: 20%; ">
+
 Esses surtos podem ser causados por:
 
 - descargas atmosféricas (raios);
