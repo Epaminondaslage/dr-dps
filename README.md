@@ -7,7 +7,7 @@
 ## **Departamento de Engenharia Elétrica - CEFET-MG**  
 ## **Coordenação do Curso de Eletrotécnica**  
 
-## Disciplina: **PLIP - Prática de Laboratório de Instalações Prediais**
+###  Disciplina: **PLIEP - Prática de Laboratório de Instalações Eletricas Prediais**
 ## Guia de Aula – DR, DDR e DPS (Dispositivo Diferencial-Residual e Dispositivo de Proteção contra Surtos)
 
 ## 1. Introdução Geral
